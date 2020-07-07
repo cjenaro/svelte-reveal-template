@@ -1,6 +1,6 @@
 # svelte reveal app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/jenaro94/svelte-reveal-template. You can see it live [here](http://svelte-reveal-template.surge.sh/)
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -50,7 +50,7 @@ export {
 ### Changing the theme
 
 This template uses [reveal.js](https://revealjs.com/) and [here](https://revealjs.com/themes/) is a list of all the themes, to change the theme simply go to `main.js` and change
-`import "../node_modules/reveal.js/dist/theme/black.css";` for another theme, it is important that this import is above other css imports to override the `revealjs.css` file.
+`import "../node_modules/reveal.js/dist/theme/black.css";` for another theme, the order in which this is imported is important to override `revealjs.css` defaults.
 
 ### Other customizations
 
