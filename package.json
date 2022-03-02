@@ -17,7 +17,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "reveal.js": "^4.0.2",
+    "reveal.js": "^4.3.0",
     "sirv-cli": "^0.4.4"
   }
 }
